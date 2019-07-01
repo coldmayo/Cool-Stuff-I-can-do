@@ -1,7 +1,7 @@
 #This shows you how many letters are in Banana.
 fruit = 'banana'
 B= len(fruit)
-print(B)
+print("There are",B,"letters in",fruit)
 #This prints Old Town Roads next to its corresponding number starting at 0.
 person = 'OldTownRoads'
 index = 0
