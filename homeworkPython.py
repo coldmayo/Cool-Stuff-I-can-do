@@ -19,7 +19,7 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 while True:
-    address = input('Enter location: ')
+    address = input('Enter place: ')
     if len(address) < 1: break
 
     parms = dict()
@@ -45,7 +45,7 @@ while True:
     print(json.dumps(js, indent=4))
 
     lat = js['results'][0]['geometry']['location']['lat']
-    lng = js['results'][0]['geometry']['location']['lng']
-    print('lat', lat, 'lng', lng)
+    long = js['results'][0]['geometry']['location']['lng']
+    print('lat', lat, 'lng', long)
     location = js['results'][0]['formatted_address']
     print(location)
