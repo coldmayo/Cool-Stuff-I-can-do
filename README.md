@@ -1,2 +1,2 @@
 # Literally anything in Python
-This will show you how to do stuff on Python
+This is were I do mini Python projects
